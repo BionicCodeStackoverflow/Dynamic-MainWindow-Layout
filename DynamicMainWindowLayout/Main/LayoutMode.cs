@@ -1,4 +1,4 @@
-﻿namespace Main
+﻿namespace DynamicMainWindowLayout.Main
 {
   public enum LayoutMode
   {

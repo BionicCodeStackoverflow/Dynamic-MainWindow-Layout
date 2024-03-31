@@ -1,6 +1,6 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-                    xmlns:local="clr-namespace:Main">
+                    xmlns:local="clr-namespace:DynamicMainWindowLayout.Main">
 
   <DataTemplate x:Key="MainWindowContent">
     <Grid>
@@ -9,17 +9,17 @@
         <RowDefinition Height="Auto" />
       </Grid.RowDefinitions>
       <TextBlock Grid.Row="0"
-                 Text="Default mode layout"
+                 Text="Portrait mode layout"
                  FontSize="24" />
 
-      <Rectangle Grid.Row="1"
-                 Height="400"
-                 Width="400"
-                 Fill="Orange" />
+      <Ellipse Grid.Row="1"
+               Height="400"
+               Width="400"
+               Fill="Orange" />
       <Button Grid.Row="1"
               Content="Change layout"
               Command="{x:Static local:MainWindow.ChangeLayoutCommand}"
-              CommandParameter="{x:Static local:LayoutMode.Portrait}"
+              CommandParameter="{x:Static local:LayoutMode.Default}"
               Width="100"
               Height="50"
               VerticalAlignment="Top"

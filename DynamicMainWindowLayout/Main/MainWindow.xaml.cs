@@ -1,4 +1,4 @@
-﻿namespace Main
+﻿namespace DynamicMainWindowLayout.Main
 {
   using System.IO;
   using System.Text;
