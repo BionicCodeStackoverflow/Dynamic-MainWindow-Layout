@@ -396,3 +396,13 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+/Main/.vs/Main/v17/.suo
+/Main/.vs/Main/v17/DocumentLayout.json
+/Main/obj/Debug/net8.0-windows/ref/Main.dll
+/Main/obj/Debug/net8.0-windows/refint/Main.dll
+/Main/obj/Debug/net8.0-windows/apphost.exe
+/Main/obj/Debug/net8.0-windows/Main.AssemblyInfo.cs
+/Main/obj/Debug/net8.0-windows/Main.AssemblyInfoInputs.cache
+/Main/obj/Debug/net8.0-windows/Main.csproj.FileListAbsolute.txt
+/Main/obj/Debug/net8.0-windows/Main.dll
+/Main/obj/Debug/net8.0-windows/Main.pdb
